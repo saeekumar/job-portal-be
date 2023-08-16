@@ -1,9 +1,9 @@
 const mysql =require('mysql');
 
 const dbConnection =mysql.createConnection({
-    host:'localhost',
-    user:'root',
-    password: 'password',
+    host:'ngr-database-1.chpdirp05dox.us-east-1.rds.amazonaws.com',
+    user:'admin',
+    password: 'Ngradmin!123',
     database:'job portal',
     insecureAuth : true
 })
