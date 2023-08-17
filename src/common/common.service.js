@@ -14,9 +14,9 @@ module.exports = {
     if(data.location!='' && data.location!=undefined&&data.location!=null&&data.location!='All')
     extond+=` and location ='${data.location}'`
 
-console.log('SELECT * FROM `job portal`.vacancy '+extond)
+// console.log('SELECT * FROM `job portal`.vacancy '+extond)
     dbConnection.query(
-      'SELECT * FROM `job portal`.vacancy '+extond,
+      'SELECT * FROM vacancy '+extond,
       [],
       (error, results, fields) => {
         if (error) {
