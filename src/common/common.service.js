@@ -16,7 +16,7 @@ module.exports = {
 
 // console.log('SELECT * FROM `job portal`.vacancy '+extond)
     dbConnection.query(
-      'SELECT * FROM sql6640334.vacancy '+extond,
+      'SELECT * FROM vacancy '+extond,
       [],
       (error, results, fields) => {
         if (error) {
