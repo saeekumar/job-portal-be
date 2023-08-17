@@ -1,10 +1,10 @@
 const mysql =require('mysql');
 
 const dbConnection =mysql.createConnection({
-    host:'ngr-database-1.chpdirp05dox.us-east-1.rds.amazonaws.com',
-    user:'admin',
-    password: 'Ngradmin!123',
-    database:'job portal',
+    host:'sql6.freemysqlhosting.net',
+    user:'sql6640334',
+    password: 'LsdsU2eFHB',
+    database:'sql6640334',
     insecureAuth : true
 })
 
